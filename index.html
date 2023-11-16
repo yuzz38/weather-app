@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App WebCademy</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <main class="weather">
+
+        <form action="" class="form" id="form">
+            <input type="text" class="form__input" placeholder="Enter city name">
+            <button class="form__btn">
+                <img src="./img/ui/search.svg" alt="Search">
+            </button>
+        </form>
+
+        <div class="weather__info">
+            <img src="./img/weather/clear.png" alt="Weather" class="weather__img">
+            <!-- <img src="./img/weather/cloudy.svg" alt="Weather" class="weather__img"> -->
+            <div class="weather__temp"><span></span></div>
+            <div class="weather__city">Введите название города</div>
+        </div>
+
+        <section class="weather__details">
+            <section class="details">
+                <img src="./img/ui/humidity.svg" alt="" class="details__img">
+                <div class="details__value" id="humidity"><span></span></div>
+                <div class="details__title">Влажность</div>
+            </section>
+
+            <section class="details">
+                <img src="./img/ui/wind-speed.svg" alt="" class="details__img">
+                <div class="details__value" id="speed"><span></span> </div>
+                <div class="details__title">Скорость в.</div>
+            </section>
+        </section>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
